@@ -1,0 +1,20 @@
+{
+  "name": "frog-ms",
+  "version": "0.0.0",
+  "description": "Frog Management System - FrogAsia Technical Test",
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
+    "angular-ui-router": "1.x",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x",
+    "fontawesome": "4.x",
+    "angular-growl-v2": "x",
+    "angularjs-datetime-picker": "x"
+  },
+  "resolutions": {
+    "angular": "1.5.11"
+  }
+}

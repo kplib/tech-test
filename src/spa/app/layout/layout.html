@@ -1,0 +1,35 @@
+<div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!-- TITLE -->
+        <div class="navbar-header">
+            <span class="navbar-brand">Frog Management System</span>
+        </div>
+        <!-- ./TITLE -->
+        <!-- SIDE MENU -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav">
+                    <li>
+                        <a ui-sref="app.pond" title="Ponds"><i class="fa fa-list fa-fw"></i> Ponds</a>
+                        <a ui-sref="app.frog" title="Frogs"><i class="fa fa-list fa-fw"></i> Frogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ./SIDE MENU -->
+    </nav>
+    <!-- ./Navigation -->
+    <!-- MAIN CONTENT -->
+    <div id="page-wrapper">
+        <!-- NOTIFICATIONS -->
+        <div class="row">
+            <div class="col-md-12">
+                <div growl></div>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div ui-view></div>
+    </div>
+    <!-- ./MAIN CONTENT -->
+</div>

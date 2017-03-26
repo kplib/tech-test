@@ -1,0 +1,14 @@
+{
+  "name": "frog-ms",
+  "version": "0.0.0",
+  "description": "Frog Management System - FrogAsia Technical Test",
+  "repository": "",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "http-server ./ -a localhost -p 8000 -c-1"
+  }
+}

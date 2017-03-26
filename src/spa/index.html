@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>Frog Management System</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/angular-growl-v2/build/angular-growl.min.css" rel="stylesheet">
+    <link href="bower_components/angularjs-datetime-picker/angularjs-datetime-picker.css" rel="stylesheet">
+    <link href="vendor/sb-admin-2/css/sb-admin-2.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+<body>
+<!-- LAYOUT -->
+<div ui-view></div>
+<!-- ./LAYOUT -->
+
+<!-- CORE SCRIPTS -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-growl-v2/build/angular-growl.min.js"></script>
+<script src="bower_components/angularjs-datetime-picker/angularjs-datetime-picker.min.js"></script>
+
+<!-- APP SCRIPTS -->
+<script src="app/app.module.js"></script>
+<script src="app/app.config.js"></script>
+
+<script src="app/utils/utils.module.js"></script>
+<script src="app/utils/app-constants.constant.js"></script>
+<script src="app/utils/notification.config.js"></script>
+<script src="app/utils/notification.service.js"></script>
+
+<script src="app/layout/layout.module.js"></script>
+<script src="app/pond/pond.module.js"></script>
+<script src="app/pond/pond.config.js"></script>
+<script src="app/pond/pond.controller.js"></script>
+<script src="app/pond/pond.service.js"></script>
+<script src="app/frog/frog.module.js"></script>
+<script src="app/frog/frog.config.js"></script>
+<script src="app/frog/frog.controller.js"></script>
+<script src="app/frog/frog.service.js"></script>
+</body>
+</html>

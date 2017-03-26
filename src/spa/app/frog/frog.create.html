@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Frogs</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">Create a Frog</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form role="form">
+                            <div class="form-group required">
+                                <label class="control-label">Name</label>
+                                <input class="form-control" ng-model="data.name">
+                            </div>
+                            <div class="form-group required">
+                                <label class="control-label">Gender</label>
+                                <div class="radio">
+                                    <label><input type="radio" ng-value="'F'" ng-model="data.gender">Female</label>
+                                    <label><input type="radio" ng-value="'M'" ng-model="data.gender">Male</label>
+                                </div>
+                            </div>
+                            <div class="form-group required">
+                                <label class="control-label">Birth Date</label>
+                                <input ng-model="data.birth_date" datetime-picker date-format="yyyy-MM-dd HH:mm:ss" hour="23" minute='59'/>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Death Date</label>
+                                <input ng-model="data.death_date" datetime-picker date-format="yyyy-MM-dd HH:mm:ss" hour="23" minute='59'/>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-info" ng-click="events.submitBtnOnClick()"><i class="fa fa-upload" aria-hidden="true"></i> Submit</button>
+                                <button type="button" class="btn btn-default" ng-click="events.cancelBtnOnClick()"><i class="fa fa-ban" aria-hidden="true"></i> Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
