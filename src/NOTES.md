@@ -31,8 +31,7 @@ DocumentRoot "path-where-you-saved-the-project/src/"
 
 
 ### II. Front-end / SPA
-1. Install Node using the NodeJs installer. You may refer to the link below for the installer. This will also install npm (which we are going to use to run the SPA later).
-[https://nodejs.org/en/]
+1. Install Node using the NodeJs installer. You may refer to this link [https://nodejs.org/en/] for the installer. This will also install npm (which we are going to use to run the SPA later).
 
 2. Open command line, go to src/spa, and execute the following commands:
 - npm install - This installs the node modules listed in package.json. This will also run bower, which downloads the angular components needed for this app 
@@ -40,11 +39,12 @@ DocumentRoot "path-where-you-saved-the-project/src/"
 
 Please note that the port used is 8000.
 
-3. Open Chrome (supported browser for the app) and access [http://localhost:8000]http://localhost:8000
+3. Open Chrome (supported browser for the app) and access [http://localhost:8000]
 
 ### OTHERS
 
 1. Things TODO and IMPROVE
+
 Back End
 - API must return PHP errors in the response
 - API request authentication and validation
